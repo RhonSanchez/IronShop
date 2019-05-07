@@ -7,7 +7,7 @@ html, body {
 
 nav {
 	display: flex;
-	background-color: green;
+	background-color: #aa0505;
 	padding: 10px;
 	color: white;
 	justify-content: space-between;
@@ -24,16 +24,17 @@ nav li {
 }
 
 nav li a {
-	color: gray;
+	color: #b97d10;
 	text-decoration: none;
 }
 
 nav li a:hover {
-	color: white;
+	color: #fbca03;
 }
 
 .logo p {
 	text-transform: uppercase;
 	font-size: 20px;
 	font-weight: 900;
+	color: #fbca03;
 }
