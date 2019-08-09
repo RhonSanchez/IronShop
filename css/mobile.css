@@ -1,0 +1,95 @@
+@media screen and (max-width: 1023px) {
+
+	.product {
+	    margin-top: -240px;
+	}
+
+	.quality {
+	    width: 28%;
+	    padding: 15px;
+	}
+
+}
+
+@media screen and (max-width: 900px) {
+	.row h2, .row p {
+		text-align: justify;
+	}
+	.shadow {
+		margin: 30px;
+	}
+	.description {
+	    min-height: 0;
+	}
+}
+
+
+@media screen and (max-width: 767px) {
+	.products {
+		display: inherit;
+		height: auto;
+	} 
+
+	.product {
+		margin-top: auto;
+	}
+
+	.main_section {
+		padding: 8%;
+	}
+
+	.qualities, .mentions {
+		display: inherit; 
+	}	
+
+	.quality {
+	    width: 60%;
+	    margin: 0 auto;
+	}
+
+	.mention {
+		width: 40%;
+		margin: 20px 0;
+	}
+
+	 .mentions {
+	    display: flex;
+	    flex-wrap: wrap;
+	    justify-content: space-evenly;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	
+	.main_section h1 {
+		font-size: 1.5em;
+	}
+
+	.products {
+		padding: 10%;
+	}
+
+	.quality {
+	    width: 80%;
+	}
+
+	.mention {
+		width: 80%;
+		margin: 20px 0;
+	}
+
+	.faq {
+		margin: 5px 0;
+		padding: 10px;
+	}
+
+	.faq p {
+		padding: 0px;
+		font-size: 1em;
+	}
+
+	.faq h3 {
+		font-size: 1.2em;
+	}
+
+}

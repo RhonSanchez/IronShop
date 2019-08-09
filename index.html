@@ -2,83 +2,77 @@
 <html lang="es">
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, inirial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>IronShop</title>
+    <link rel="stylesheet" href="css/grid.css">
+    <link rel="stylesheet" href="css/animation.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/mobile.css">
 </head>
 <body>
     <header>
         <!-- Aquí empieza el navbar -->
-        <nav>
+        <nav class="fadeInDown">
             <div class="logo"><p>IronShop</p></div>
             <div class="nav_options">
                 <ul>
-                    <li><a href="#">Faqs</a></li>
-                    <li><a href="#">Producto y descripción</a></li>
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./producto.html">Producto y descripción</a></li>
+                    <li><a href="./faqs.html">Faqs</a></li>
                 </ul>
             </div>
         </nav>
         <!-- Aquí termina el navbar -->
     </header>
-    <div class="main_section">
-      <h1>Ahora puedes ser un vengador! con estos increibles trajes de Iron Man</h1>
+    <div class="main_section fadeIn">
+      <h1>Ahora puedes ser un vengador! con estos increibles trajes de Iron Man, atrevete a salvar el mundo como el mejor vengador que derroto a Thanos!</h1>
     </div>
     <div class="products">
-      <div class="product">
+      <div class="product fadeInUp">
         <div class="content">
           <div class="img_content">
-            <img src="images/mark2.png" width="130" height="280">
+            <img src="https://i.imgur.com/M8TMFN5.png" width="130" height="280">
           </div>
           <h1>Mark 2</h1>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-          consequat. Duis aute irure dolor in reprehenderit in voluptate velit </p>
-          <button href="#" class="main_button">Lo quiero</button>
+          <p class="price">Precio: <strong>$200</strong></p>
+          <p>La segunda armadura de Iron Man creada por Tony Stark. El objetivo principal del Mark II fue actualizar la armadura con construcción avanzada y materiales enfocados en mejorar en gran medida su capacidad de vuelo.</p>
+          <a href="venta.html"><button class="main_button">Lo quiero</button></a>
         </div>
       </div>
-      <div class="product">
+      <div class="product fadeInUp">
         <div class="content">
           <div class="img_content">
-            <img src="images/mark3.png" width="130" height="280">
+            <img src="https://i.imgur.com/K5H95QI.png" width="130" height="280">
           </div>
           <h1>Mark 3</h1>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-          consequat. Duis aute irure dolor in reprehenderit in voluptate velit </p>
-          <button href="#" class="main_button">Lo quiero</button>
+          <p class="price">Precio: <strong>$250</strong></p>
+          <p>La Mark III fue la tercera armadura de Iron Man diseñada y creada por Tony Stark y es la sucesora a la Mark II. La armadura fue diseñada por tecnologia mejorar y carcterísticas mejoradas para superar las capacidades de su predecesor. Tambien es la armadura clásica.</p>
+          <a href="venta.html"><button class="main_button">Lo quiero</button></a>
         </div>
       </div>
     </div>
     <div class="qualities">
       <div class="quality">
         <figure class="img_qualityContent">
-          <img class="img_quality" src="images/control.jpg">
+          <img class="img_quality" src="https://i.imgur.com/UCsRqpc.jpg">
         </figure>
         <h3 class="quality_title">Control a distancia</h3>
-        <p class="quality_description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-        quis nostrud exercitation ullamco laboris nisi ut aliquip </p>
+        <p class="quality_description">Si no quieres colocartelo, no hay problema! Puedes manejarlo a control remoto desde cualquier lugar en que te encuentres. Funcionara de la misma forma si estuvieras dentro de el.</p>
       </div>
       <div class="quality">
         <figure class="img_qualityContent">
-          <img class="img_quality" src="images/maletin.jpg">
+          <img class="img_quality" src="https://i.imgur.com/QAou0Ca.jpg">
         </figure>
         <h3 class="quality_title">Portable</h3>
-        <p class="quality_description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-        quis nostrud exercitation ullamco laboris nisi ut aliquip </p>
+        <p class="quality_description">Ligero, con diseño ejecutivo para cargarlo para donde quieras sin necesidad de llevar un enorme peso encima.</p>
       </div>
       <div class="quality">
         <figure class="img_qualityContent">
-          <img class="img_quality" src="images/coleccionable.jpg">
+          <img class="img_quality" src="https://i.imgur.com/QaCOMZy.jpg">
         </figure>
         <h3 class="quality_title">Coleccionable</h3>
-        <p class="quality_description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-        quis nostrud exercitation ullamco laboris nisi ut aliquip </p>
+        <p class="quality_description">Colecciona toda la gama de armaduras diseñadas y creadas por el mismo Tony Stark!</p>
       </div>
     </div>
     <hr>
@@ -86,47 +80,39 @@
     <div class="mentions">
       <div class="mention">
         <figure class="img_mentionContent">
-          <img class="img_mention" src="images/mencion1.jpeg">
+          <img class="img_mention" src="https://i.imgur.com/9VuY6A0l.jpg">
         </figure>
         <h2 class="mention_title">Tony Stark</h2>
-        <p class="mention_description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-        quis nostrud exercitation ullamco laboris </p>
+        <p class="mention_description">Como yo las diseñé y las construí, obviamente dire que todas mis armaduras son muy seguras, confiables y a muy buen precio. Sin mencionar que en algunos momentos me han ocacionado errores de compilación en el software Jarvis. Ya he sido por mucho tiempo Iron Man, es hora que otros ocupen mi lugar.</p>
       </div>
       <div class="mention">
         <figure class="img_mentionContent">
-          <img class="img_mention" src="images/mencion2.jpg">
+          <img class="img_mention" src="https://i.imgur.com/DriREWJ.jpg">
         </figure>
         <h2 class="mention_title">Peter Parker</h2>
-        <p class="mention_description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-        quis nostrud exercitation ullamco laboris </p>
+        <p class="mention_description">La mayoria de mis trajes han sido construidos con la tecnologia del señor Stark. Son muy buenos y practicos, aunque me confundí mucho la primera vez que probe uno, de hecho casi hago que se hunda un barco entero.</p>
       </div>
       <div class="mention">
         <figure class="img_mentionContent">
-          <img class="img_mention" src="images/mencion3.png">
+          <img class="img_mention" src="https://i.imgur.com/WBQIYip.png">
         </figure>
         <h2 class="mention_title">James Rhodes</h2>
-        <p class="mention_description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-        quis nostrud exercitation ullamco laboris </p>
+        <p class="mention_description">War Machine es el mejor diseño que tony pudo construir para mí. Siempre preparado para la guerra, con todas las armas que un soldado necesita. Aunque ahora que lo pienso, yo me robé ese traje cuando Tony no pudo quitarmelo.</p>
       </div>
       <div class="mention">
         <figure class="img_mentionContent">
-          <img class="img_mention" src="images/mencion4.png">
+          <img class="img_mention" src="https://i.imgur.com/7YSRhpM.png">
         </figure>
         <h2 class="mention_title">Happy Hogan</h2>
-        <p class="mention_description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-        quis nostrud exercitation ullamco laboris </p>
+        <p class="mention_description">Nunca he usado ninguna de las armaduras de Tony, y eso que llevo trabajando para él varios años. Siempre le pido que me deje usarla por un momento y se niega. Me molesta que se burlen de mi por ser el guarda espaldas de Iron Man, creen que Tony no necesita uno.</p>
       </div>
     </div>
+    <!-- Aquí empieza el footer -->
     <footer>
       <div>
-        <p class="copy">&copy Rhonald Sánchez 2019</p>
+        <p class="copy">&copy Rhon Sánchez 2019</p>
       </div>
     </footer>
-
-<script src="js/script.js"></script>
+    <!-- Aquí termina el footer -->
 </body>
 </html>
