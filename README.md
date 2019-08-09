@@ -1,4 +1,4 @@
-# IronShops 
+# IronShop 
 Una tienda online donde puedes comprar las armaduras hechas por el mismo Tony Stark. 
 > Esta tienda era lo que me hacia falta para poder ser un autentico vengador y derrotar a Thanos.
 > - Fan del UCM
